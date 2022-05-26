@@ -19,38 +19,38 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="allmodels.h" />
-    <ClInclude Include="constants.h" />
-    <ClInclude Include="cube.h" />
-    <ClInclude Include="lodepng.h" />
-    <ClInclude Include="model.h" />
-    <ClInclude Include="myCube.h" />
-    <ClInclude Include="shaderprogram.h" />
-    <ClInclude Include="sphere.h" />
-    <ClInclude Include="teapot.h" />
-    <ClInclude Include="torus.h" />
+    <ClInclude Include="include\allmodels.h" />
+    <ClInclude Include="include\constants.h" />
+    <ClInclude Include="include\cube.h" />
+    <ClInclude Include="include\lodepng.h" />
+    <ClInclude Include="include\model.h" />
+    <ClInclude Include="include\myCube.h" />
+    <ClInclude Include="include\shaderprogram.h" />
+    <ClInclude Include="include\sphere.h" />
+    <ClInclude Include="include\teapot.h" />
+    <ClInclude Include="include\torus.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="cube.cpp" />
-    <ClCompile Include="lodepng.cpp" />
+    <ClCompile Include="src\cube.cpp" />
+    <ClCompile Include="src\lodepng.cpp" />
     <ClCompile Include="main_file.cpp" />
-    <ClCompile Include="model.cpp" />
-    <ClCompile Include="shaderprogram.cpp" />
-    <ClCompile Include="sphere.cpp" />
-    <ClCompile Include="teapot.cpp" />
-    <ClCompile Include="torus.cpp" />
+    <ClCompile Include="src\model.cpp" />
+    <ClCompile Include="src\shaderprogram.cpp" />
+    <ClCompile Include="src\sphere.cpp" />
+    <ClCompile Include="src\teapot.cpp" />
+    <ClCompile Include="src\torus.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="f_colored.glsl" />
-    <None Include="f_constant.glsl" />
-    <None Include="f_lambert.glsl" />
-    <None Include="f_lamberttextured.glsl" />
-    <None Include="f_textured.glsl" />
-    <None Include="v_colored.glsl" />
-    <None Include="v_constant.glsl" />
-    <None Include="v_lambert.glsl" />
-    <None Include="v_lamberttextured.glsl" />
-    <None Include="v_textured.glsl" />
+    <None Include="shaders\f_colored.glsl" />
+    <None Include="shaders\f_constant.glsl" />
+    <None Include="shaders\f_lambert.glsl" />
+    <None Include="shaders\f_lamberttextured.glsl" />
+    <None Include="shaders\f_textured.glsl" />
+    <None Include="shaders\v_colored.glsl" />
+    <None Include="shaders\v_constant.glsl" />
+    <None Include="shaders\v_lambert.glsl" />
+    <None Include="shaders\v_lamberttextured.glsl" />
+    <None Include="shaders\v_textured.glsl" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

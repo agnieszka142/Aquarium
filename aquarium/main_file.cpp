@@ -26,11 +26,11 @@ Place, Fifth Floor, Boston, MA  02110 - 1301  USA
 #include <glm/gtc/matrix_transform.hpp>
 #include <stdlib.h>
 #include <stdio.h>
-#include "myCube.h"
-#include "constants.h"
-#include "allmodels.h"
-#include "lodepng.h"
-#include "shaderprogram.h"
+#include "./include/myCube.h"
+#include "./include/constants.h"
+#include "./include/allmodels.h"
+#include "./include/lodepng.h"
+#include "./include/shaderprogram.h"
 
 float speed_x = 0;//[radiany/s]
 float speed_y = 0;//[radiany/s]
@@ -103,7 +103,7 @@ void initOpenGLProgram(GLFWwindow* window) {
 	glClearColor(0, 0, 0, 1); //Ustaw kolor czyszczenia bufora kolorów
 	glEnable(GL_DEPTH_TEST); //Włącz test głębokości na pikselach
 	glfwSetKeyCallback(window, key_callback);
-	tex = readTexture("bricks.png");
+	tex = readTexture("./img/bricks.png");
 }
 
 
