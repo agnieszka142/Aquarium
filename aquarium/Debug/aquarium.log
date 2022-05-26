@@ -1,0 +1,12 @@
+﻿  cube.cpp
+  lodepng.cpp
+  main_file.cpp
+C:\Users\lukas\OneDrive\Pulpit\Grafika_Projekt_Repo\aquarium\aquarium\main_file.cpp(283,37): warning C4244: "+=": konwersja z "double" do "float", możliwa utrata danych
+C:\Users\lukas\OneDrive\Pulpit\Grafika_Projekt_Repo\aquarium\aquarium\main_file.cpp(284,37): warning C4244: "+=": konwersja z "double" do "float", możliwa utrata danych
+  model.cpp
+  shaderprogram.cpp
+  sphere.cpp
+  teapot.cpp
+  torus.cpp
+  Generowanie kodu...
+  aquarium.vcxproj -> C:\Users\lukas\OneDrive\Pulpit\Grafika_Projekt_Repo\aquarium\aquarium\Debug\aquarium.exe
